@@ -1,7 +1,7 @@
 # React Calendar Timeline
 
 A modern and responsive React timeline component.
-- 
+- --
 
 ![calendar demo](https://raw.githubusercontent.com/namespace-ee/react-calendar-timeline/master/demo.gif)
 
