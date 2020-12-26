@@ -24,7 +24,7 @@ export default class Sidebar extends Component {
     )
   }
 
-  renderGroupContent(group, isRightSidebar, groupTitleKey, groupRightTitleKey, groupRight = {}) {
+  renderGroupContent(group, isRightSidebar, groupTitleKey, groupRightTitleKey, groupRight = {} ) {
     if (this.props.groupRenderer) {
       return React.createElement(this.props.groupRenderer, {
         group,
