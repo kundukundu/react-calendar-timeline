@@ -1,6 +1,7 @@
 # React Calendar Timeline
 
 A modern and responsive React timeline component.
+- 
 
 ![calendar demo](https://raw.githubusercontent.com/namespace-ee/react-calendar-timeline/master/demo.gif)
 
@@ -582,7 +583,7 @@ Data to be passed to `rowRenderer`'s  `rowData` param. Changing this prop will c
 
 # Helpers
 
-Helpers are methods provided by `HelperContext`. These helpers power most of the rendered UI in the timeline like: Headers, Markers, Items and row renderers. 
+Helpers are methods provided by `HelperContext`. These helpers power most of the rendered UI in the timeline like: Headers, Markers, Items and row renderers.
 
 ## Methods
 
@@ -600,7 +601,7 @@ Given `left` position in `px`, the method will return the corresponding date in 
 
 Given a item id, It will return back the left and top of the item relative to row it is in. This is useful to know the where an item is relative to other items in the same group.
 
-### `getItemAbsoluteDimensions(itemId: string|number): dimensions`. 
+### `getItemAbsoluteDimensions(itemId: string|number): dimensions`.
 
 Given a item id, It will return back the left and top of the item relative to the calendar container. This is useful to know the position of items in different rows relative to each other.
 
@@ -859,7 +860,7 @@ Custom renderer for this marker. Ensure that you always pass `styles` to the roo
 ```
 
 
-Helpers are a group of 
+Helpers are a group of
 
 # Timeline Headers
 
@@ -1449,7 +1450,7 @@ type rowRenderer = (args: Params) => React.Node
 
 #### getLayerRootProps
 
-These functions are used to apply props to the layer that you want to render. This gives you maximum flexibility to render what, when, and wherever you like. 
+These functions are used to apply props to the layer that you want to render. This gives you maximum flexibility to render what, when, and wherever you like.
 
 #### rowData
 
